@@ -1,29 +1,31 @@
 //
 //  main.cpp
-//  PS4P4
+//  PS3P3
 //
-//  Created by Alex Uruchima on 8/24/25.
-//
-/// INPUT:
-/// - number 1, number 2, number 3
-/// - add and substract
-/// PROCESS:
-/// -assign variable for number 1,2,3.
-/// -select case for calculation: sum and multiplication
-/// -display result
-/// OUTPUT:
-/// -display result of the calculation
+//  Created by Alex Uruchima on 8/23/25.
+
+
+///INPUT:
+///- last name
+///- score
+///PROCESS:
+///- insert last name and score
+///- display result
+///OUTPUT:
+///- display users last name and score
 
 #include <iostream>
 using namespace std;
-int main(){
-    int n1,n2,n3;
-    cout<<"Enter 1st number ";
-    cin>>n1;
-    cout<<"Enter 2nd number 76";
-    cin>>n2;
-    cout<<"Enter 3rd number ";
-    cin>>n3;
-    cout<<(n1+n2)*n3<<endl;
+
+int main() {
+    string lastname;
+    int score;
+    cout<<"What is your last name ";
+    cin>>lastname;
+    cout<<"What is your score ";
+    cin>>score;
+    cout<<lastname<< " has a score of " <<score <<endl;
+    
+   
     return 0;
 }
