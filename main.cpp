@@ -1,31 +1,30 @@
 //
 //  main.cpp
-//  PS3P3
+//  PS2P2
 //
 //  Created by Alex Uruchima on 8/23/25.
 
 
-///INPUT:
-///- last name
-///- score
-///PROCESS:
-///- insert last name and score
-///- display result
-///OUTPUT:
-///- display users last name and score
 
+/// INPUT:
+/// - Insert number 1 and 2
+/// - add two numbers
+/// PROCESS:
+/// - assing value for number 1 and 2
+/// - select calculation type: sum
+/// - calculate and display result
+/// OUTPUT:
+///  - Result of calculation
 #include <iostream>
 using namespace std;
-
 int main() {
-    string lastname;
-    int score;
-    cout<<"What is your last name ";
-    cin>>lastname;
-    cout<<"What is your score ";
-    cin>>score;
-    cout<<lastname<< " has a score of " <<score <<endl;
+    int number1, number2, sum;
+    cout << "Insert a number ";
+    cin >> number1;
+    cout <<"Insert another number ";
+    cin >> number2;
+    sum = number1 + number2;
+    cout<< sum << endl;
     
-   
     return 0;
 }
