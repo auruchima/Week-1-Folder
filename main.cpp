@@ -1,30 +1,28 @@
 //
 //  main.cpp
-//  PS2P2
+//  PS1P1
 //
-//  Created by Alex Uruchima on 8/23/25.
-
-
-
+//  Created by Alex Uruchima on 8/22/25.
 /// INPUT:
-/// - Insert number 1 and 2
-/// - add two numbers
+/// - enter users name
+/// - enter users last name
+/// -add 'hello" message
 /// PROCESS:
-/// - assing value for number 1 and 2
-/// - select calculation type: sum
-/// - calculate and display result
+/// - insert users name and last name
+/// - display result with a "hello "message
 /// OUTPUT:
-///  - Result of calculation
+/// - display full content 
 #include <iostream>
 using namespace std;
-int main() {
-    int number1, number2, sum;
-    cout << "Insert a number ";
-    cin >> number1;
-    cout <<"Insert another number ";
-    cin >> number2;
-    sum = number1 + number2;
-    cout<< sum << endl;
+int main(){
+    string name;
+    cout <<"Whats your name ";
+    cin >>name;
+    string lastname;
+    cout <<"What is your last name ";
+    cin  >> lastname;
+    cout<<"Hello "<<lastname<<endl;
     
+  
     return 0;
 }
