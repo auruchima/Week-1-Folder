@@ -1,30 +1,29 @@
 //
 //  main.cpp
-//  PS5P5
+//  PS4P4
 //
 //  Created by Alex Uruchima on 8/24/25.
 //
-
-
-// INPUT:
-// - number 1, number 2.
-// - add, multiply and substract
-// PROCESS:
-// - assing variable for number 1 and 2
-//- select case ;add, substract and multiply.
-//- display calculation result
-// OUTPUT:
-//- result of calculation
+/// INPUT:
+/// - number 1, number 2, number 3
+/// - add and substract
+/// PROCESS:
+/// -assign variable for number 1,2,3.
+/// -select case for calculation: sum and multiplication
+/// -display result
+/// OUTPUT:
+/// -display result of the calculation
 
 #include <iostream>
 using namespace std;
-int main() {
-    double num1, num2;
-    cout<<"Enter 2 numbers";
-    cin>>num1>>num2;
-    cout<<"The sum is:" <<num1+num2<<endl;
-    cout<<"The product is:" <<num1*num2<<endl;
-    cout<<"The difference is:" <<num1-num2<<endl;
-  
+int main(){
+    int n1,n2,n3;
+    cout<<"Enter 1st number ";
+    cin>>n1;
+    cout<<"Enter 2nd number 76";
+    cin>>n2;
+    cout<<"Enter 3rd number ";
+    cin>>n3;
+    cout<<(n1+n2)*n3<<endl;
     return 0;
 }
